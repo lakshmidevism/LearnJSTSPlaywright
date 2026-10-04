@@ -1,7 +1,7 @@
 
 The RICE-POT framework is an advanced prompt engineering model designed to craft comprehensive, context-rich, and deterministic prompts for AI models, especially when generating complex, enterprise-grade software architectures and test automation frameworks.
 
-Breakdown of RICE-POT
+Breakdown of RICE-POT technique
 Letter	Component	Description	Example in QA Automation
 R	Role	Specifies the persona, seniority, and domain expertise the AI must adopt.	"You are a Principal QA Automation Architect with 15+ years of experience in enterprise test engineering..."
 I	Instructions	Specific step-by-step directives, tasks, and requirements the AI must execute.	"Create a complete Selenium 4 with Java, Maven, and TestNG framework following Page Object Model and SOLID principles..."
@@ -12,4 +12,4 @@ O	Output Format	Desired deliverable format, file tree, code blocks, documentatio
 T	Tone & Target Audience	Communication style, rigor, and depth expected in the solution.	"Enterprise-grade, production-ready, clean, well-documented, adhering to senior industry standards."
 Why RICE-POT Works for SDET / QA Automation
 Eliminates ambiguity: Standard single-line prompts produce toy code. RICE-POT forces the AI to consider edge cases, parallelization, logging, reporting, and architectural patterns.
-Enterprise-ready output: By embedding architectural constraints (ThreadLocal, SOLID, Listeners, CI/CD integration), the generated framework is immediately usable in real-world corporate environments.
+Enterprise-ready output: By embedding architectural constraints (ThreadLocal, SOLID, Listeners, CI/CD integration), the generated framework is immediately usable in real-world corporate environment.
