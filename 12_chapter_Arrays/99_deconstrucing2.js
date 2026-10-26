@@ -4,5 +4,5 @@ console.log(a);
 console.log(b);
 console.log(rest);
 
-let [,,thirdOnly] = [10,20,30];
-console.log(thirdOnly);
+let [,,thirdOnly] = [10,20,30,50];
+console.log("what is" + thirdOnly);
