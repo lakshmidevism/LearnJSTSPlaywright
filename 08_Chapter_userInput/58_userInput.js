@@ -6,3 +6,4 @@ if (num > 0) {
 } else {
     console.log("The number is zero.");
 }
+ // prompt works only in browser environment, not in node.js environment.

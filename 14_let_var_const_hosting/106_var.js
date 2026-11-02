@@ -1,6 +1,7 @@
 var a = 10;
 console.log(a);
 
+//function scope
 function print(a){
     console.log("learning js");
    var a = 20;

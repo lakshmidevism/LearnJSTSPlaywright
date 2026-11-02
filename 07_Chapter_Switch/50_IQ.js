@@ -1,3 +1,5 @@
+// this is default case example.
+
 let day = 10;
 switch (day) {
     case 0:

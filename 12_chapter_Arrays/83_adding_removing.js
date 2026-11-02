@@ -16,4 +16,7 @@ arr.shift(0);
 console.log(arr); // [10, 20, 30, 40]
 
 arr.splice(1, 2); // removes 2 elements starting from index 1
-console.log(arr);   
+console.log(arr); // [10, 40]
+
+arr.splice(1, 1, 20, 30); // adds 20 and 30 at index 1
+console.log(arr); // [10, 20, 30, 40]   

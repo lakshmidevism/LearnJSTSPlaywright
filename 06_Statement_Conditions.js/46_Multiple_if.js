@@ -1,11 +1,45 @@
-// problem - statement 
-//scrore 0 to 100
-// score > 90 - A
-//score 80 to 90 -> B
-//score 70 to 80 -> C
-//score 60 to 70 -> D
-//score 50 - 60 -> E  
-//score < 50 -> F
+// ### Problem Statement
+
+// Write a JavaScript program that accepts a student's exam score and determines the corresponding grade using conditional statements (`if`, `else if`, and `else`).
+
+// The score must be between 0 and 100 (inclusive).
+
+// ### Grading Criteria
+
+// | Score Range | Grade | Performance       |
+// | ----------- | ----- | ----------------- |
+// | 91–100      | A     | Excellent         |
+// | 81–90       | B     | Very Good         |
+// | 71–80       | C     | Good              |
+// | 61–70       | D     | Average           |
+// | 50–60       | E     | Needs Improvement |
+// | 0–49        | F     | Fail              |
+
+// ### Requirements
+
+// 1. Accept a student's score as input.
+// 2. Use `if`, `else if`, and `else` statements to determine the grade.
+// 3. Print the student's score and corresponding grade.
+// 4. If the score is less than 0 or greater than 100, display `"Invalid Score"`.
+// 5. Handle boundary values correctly, such as `0`, `49`, `50`, `60`, `70`, `80`, `90`, and `100`.
+
+// ### Sample Input and Output
+
+// ```
+// Input: 95
+// Output: Grade A - Excellent
+
+// Input: 85
+// Output: Grade B - Very Good
+
+// Input: 75
+// Output: Grade C - Good
+
+// Input: 65
+// Output: Grade D - Average
+
+// Input: 55
+// Output: Grade E - Needs Improvement
 
 let score = 35;
 let grade = "";

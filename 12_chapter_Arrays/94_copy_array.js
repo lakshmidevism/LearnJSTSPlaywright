@@ -14,7 +14,7 @@ console.log(copy1);
  console.log(copy1);
  console.log(copy2);
 
- let deep_copy_array = num;
+ let deep_copy_array = num; // modifies same array, doesnot create new array
  deep_copy_array.push(7);
  console.log(num);
  console.log(deep_copy_array);
