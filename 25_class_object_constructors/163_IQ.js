@@ -1,4 +1,4 @@
-class invalidConstructor{
-    constructor(a){}
-    constructor(b){}
-}
+// class invalidConstructor{
+//     constructor(a){}
+//     constructor(b){}
+// }

@@ -12,4 +12,3 @@ class credentials {
 
 let t1 = new credentials("admin", "scecret_keyabc");
 console.log(t1.user);
-console.log(t1.#apiKey);
