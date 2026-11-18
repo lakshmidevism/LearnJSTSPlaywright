@@ -1,0 +1,1 @@
+// not possible (can be done using mixin)
