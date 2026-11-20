@@ -1,4 +1,4 @@
-class BasePage {
+class BasePage1 {
     constructor(pageName){
       this.pageName = pageName;
     }
@@ -10,10 +10,10 @@ class BasePage {
         console.log("closing the page");
     }
 }
-class LoginPage extends BasePage {
+class LoginPage1 extends BasePage1 {
 
 }
 
-let page = new LoginPage();
+let page = new LoginPage1();
 page.open();
 page.close();
